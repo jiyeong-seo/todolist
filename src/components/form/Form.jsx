@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const Form = () => {
   const [formValue, setFormValue] = useState([]);
-  const [title, setTitle] = useState("오늘의 할 일");
-  const [desc, setDesc] = useState("밥먹기");
+  const [title, setTitle] = useState("");
+  const [desc, setDesc] = useState("");
   const handelAddTodo = () => {
     /* 내용이 있을 경우 Todo 생성 */
     if (title && desc) {
