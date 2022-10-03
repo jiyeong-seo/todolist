@@ -11,7 +11,9 @@
 
 .list-title {
   display: inline-block;
-  width: 180px;
+  /* width: 180px; */
+  flex-grow: 1;
+  height: 38px;
   color: #555454;
   font-weight: 700;
   font-size: 26px;

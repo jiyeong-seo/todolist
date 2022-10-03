@@ -9,7 +9,7 @@ const List = ({ formValue, setFormValue }) => {
     <div className="list-container">
       <div className="list-title-content">
         <h2 className="list-title" area-label="Todo Title in Progress">
-          🔥 가 보 자 고 🔥
+          😎 가 보 자 고 😎
         </h2>
         <dl>
           <dt className="sr-only">In Progress Todos Number</dt>
@@ -35,7 +35,7 @@ const List = ({ formValue, setFormValue }) => {
       </div>
       <div className="list-title-content">
         <h2 className="list-title" area-label="Completed Todo Title">
-          😎 내 가 해 냄 😎{" "}
+          🔥 내 가 해 냄 🔥
         </h2>
         <dl>
           <dt className="sr-only">Completed Todos Number</dt>
