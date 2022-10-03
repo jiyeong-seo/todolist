@@ -3,7 +3,7 @@ import { List } from "../../components";
 import { useState } from "react";
 
 const Form = () => {
-  const [formValue, setFormValue] = useState([]);
+  const [formValue, setFormValue] = useState();
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const handelAddTodo = () => {
