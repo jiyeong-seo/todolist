@@ -23,11 +23,7 @@ const List = ({ formValue, setFormValue }) => {
       <div className="list-wrapper">
         {workingList.map((item) => (
           <Todo
-            title={item.title}
-            id={item.id}
-            desc={item.desc}
-            isDone={item.isDone}
-            key={item.id}
+            todoItem={item}
             formValue={formValue}
             setFormValue={setFormValue}
           />
@@ -47,11 +43,7 @@ const List = ({ formValue, setFormValue }) => {
       <div className="list-wrapper finish">
         {doneList.map((item) => (
           <Todo
-            title={item.title}
-            id={item.id}
-            desc={item.desc}
-            isDone={item.isDone}
-            key={item.id}
+            todoItem={item}
             formValue={formValue}
             setFormValue={setFormValue}
           />

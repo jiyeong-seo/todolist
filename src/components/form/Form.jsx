@@ -39,7 +39,7 @@ const Form = () => {
             }}
             value={title}
             placeholder="15자 이내의 제목을 작성해주세요!"
-            maxlength="15"
+            maxLength="15"
           />
           <label className="form-label" htmlFor="desc">
             내용
@@ -57,7 +57,7 @@ const Form = () => {
             }}
             value={desc}
             placeholder="오늘의 할 일은?"
-            maxlength="25"
+            maxLength="25"
           />
         </div>
         <button type="button" className="add-button" onClick={handelAddTodo}>
